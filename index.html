@@ -21,7 +21,7 @@
       >
       <nav>
         <ul class="list">
-          <li><a class="navigation-link link" href="./index.html">Студия</a></li>
+          <li><a class="navigation-link link current" href="./index.html">Студия</a></li>
           <li>
             <a class="navigation-link link" href="./portfolio.html">Портфолио</a>
           </li>
@@ -30,10 +30,12 @@
       </nav>
       <ul class="list">
         <li>
-          <a class="navigation-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="navigation-link link contacts" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a class="navigation-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="navigation-link link contacts" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -41,11 +43,11 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="btn" type="button">Заказать услугу</button>
+        <button class="btn hero-btn" type="button">Заказать услугу</button>
       </section>
 
       <section class="features">
-        <h2 hidden>Преимущества</h2>
+        <h2 class="visually-hidden">Преимущества</h2>
         <ul class="list">
           <li>
             <h3 class="features-title">Внимание к деталям</h3>
@@ -124,15 +126,15 @@
       </section>
     </main>
     <!--Контактная информация-->
-    <footer>
+    <footer class="address">
       <a class="link" lang="en" href="./index.html"
-        ><span class="web">Web</span><span class="studio">Studio</span></a
+        ><span class="web">Web</span><span class="studio studio-footer">Studio</span></a
       >
       <address>
         <ul class="list">
           <li>
             <a
-              class="add link"
+              class="footer-link link call location"
               href="https://goo.gl/maps/ZJLE7oXqnEzqe7Bk7"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -140,10 +142,10 @@
             >
           </li>
           <li>
-            <a class="navigation-link link add" href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-link link call" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a class="navigation-link link add" href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="footer-link link call" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
